@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="FlowersView.ApiActivity"
+    android:background="@color/green_oliv">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_flower"
+        android:layout_width="369dp"
+        android:layout_height="633dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/brown_chocolate"/>
+
+    <ImageView
+        android:layout_width="104dp"
+        android:layout_height="112dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:src="@drawable/reply"
+        android:id="@+id/don"/>
+
+    <ImageView
+        android:layout_width="146dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="1dp"
+        android:rotation="180"
+
+        android:src="@drawable/cherry" />
+
+
+</RelativeLayout>

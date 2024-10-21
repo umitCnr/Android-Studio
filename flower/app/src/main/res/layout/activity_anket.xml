@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anket.AnketActivity">
+
+    <Button
+        android:id="@+id/akdeniz"
+        android:layout_width="100dp"
+        android:fontFamily="@font/yazi1"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bolge"
+        android:text="Akdeniz "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/ege"
+        android:layout_width="100dp"
+        android:fontFamily="@font/yazi1"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="117dp"
+        android:background="@drawable/bolge"
+        android:text="ege "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/guney"
+        android:layout_width="100dp"
+        android:fontFamily="@font/yazi1"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="117dp"
+        android:background="@drawable/bolge"
+        android:layout_toEndOf="@+id/ege"
+        android:text="güney doğu "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/karadeniz"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:fontFamily="@font/yazi1"
+        android:layout_marginTop="117dp"
+        android:background="@drawable/bolge"
+        android:layout_toEndOf="@+id/guney"
+        android:text="karadeniz "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/ic"
+        android:background="@drawable/bolge"
+        android:fontFamily="@font/yazi1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/akdeniz"
+        android:text="iç anadolu "
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <Button
+        android:id="@+id/marmara"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/yazi1"
+        android:background="@drawable/bolge"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/dogu"
+        android:text="marmara "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/dogu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bolge"
+        android:fontFamily="@font/yazi1"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/ic"
+        android:text="doğu anadolu "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/frame_layout"
+        android:layout_width="413dp"
+        android:layout_height="523dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="6dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="186dp" />
+</RelativeLayout>

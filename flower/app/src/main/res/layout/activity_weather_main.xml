@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_weather"
+    tools:context="HavaDurumu.WeatherMain">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageweather"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/cloudy" />
+
+        <TextView
+            android:id="@+id/textinformation"
+            android:layout_width="185dp"
+            android:layout_height="350dp"
+            android:layout_below="@+id/imageweather"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/textviewweather"
+            android:fontFamily="@font/grenda"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="194dp"
+            android:layout_height="351dp"
+            android:layout_below="@+id/imageweather"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/weatherInformation"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/textviewweather"
+            android:fontFamily="@font/grenda"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:onClick="back"
+            android:src="@drawable/reply" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bej">#F5F5DC</color>
+    <color name="blue_Cobalt">#0047AB</color>
+    <color name="blue_Egyptian">#1434A4</color>
+    <color name="bleu_dark">#000080</color>
+    <color name="blue_sea">#AFEEEE</color>
+    <color name="blue_pastel">#B0E0E6</color>
+    <color name="blue_Iris">#5D3FD3</color>
+    <color name="blue_light">#ADD8E6</color>
+    <color name="blue_Neon">#1F51FF</color>
+    <color name="orenge_Apricot">#FBCEB1</color>
+    <color name="orenge_desert">#FAD5A5</color>
+    <color name="green_Forest">#228B22</color>
+    <color name="orenge">#FFA500</color>
+    <color name="green_Glass">#7CFC00</color>
+    <color name="green_jungle">#2AAA8A</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="platinum">#E5E4E2</color>
+    <color name="green">#008000</color>
+    <color name="yellow">#ffff00</color>
+    <color name="brown">#6F4E37</color>
+    <color name="wheat">#F5DEB3</color>
+    <color name="brown_chocolate">#7B3F00</color>
+    <color name="green_zeytin">#6B8E23</color>
+    <color name="green_oliv">#556B2F</color>
+</resources>
